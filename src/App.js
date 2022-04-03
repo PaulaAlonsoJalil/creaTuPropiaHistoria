@@ -1,8 +1,12 @@
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+import React, { Component } from 'react'
+import Contenedor from './components/Contenedor'
 
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Contenedor/>
+      </>
+    )
+  }
+}
